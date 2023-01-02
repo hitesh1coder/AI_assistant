@@ -24,7 +24,7 @@ function App() {
 
   const fetchBotResponce = async () => {
     const { data } = await axios.post(
-      "http://localhost:4000",
+      "https://chatai-app.onrender.com",
       { input },
       {
         headers: {
