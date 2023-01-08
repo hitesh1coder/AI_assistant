@@ -39,6 +39,7 @@
 .chatGPT-app {
   max-width: 1200px;
   margin: 0 auto;
+  height: 100%;
   padding: 0 20px;
   background: url("../src/assets/ai_img.jpg");
   background-repeat: no-repeat;
@@ -85,7 +86,7 @@ footer {
 }
 .chat-container {
   height: calc(100vh - 80px);
-  padding: 20px 0;
+  padding-top: 20px;
 }
 .layout {
   width: 100%;
@@ -95,7 +96,7 @@ footer {
   flex-direction: column;
   gap: 30px;
   scrollbar-width: 2px;
-  padding: 2rem;
+  padding: 1rem;
 }
 .chat-bubble {
   display: flex;
