@@ -91,7 +91,9 @@ function App() {
     <>
       <main className="chatGPT-app">
         <section className="chat-container">
-          <div className="heading">Welcome To Hitesh's AI Assistant</div>
+          <div className="heading">
+            <h2> Hi ! I am Your AI Assistant</h2>
+          </div>
           <div className="layout">
             {(posts || []).map((post, index) => (
               <div

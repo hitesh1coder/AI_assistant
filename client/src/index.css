@@ -23,15 +23,26 @@
   box-sizing: border-box;
 }
 .heading {
-  color: aqua;
-  font-size: 2rem;
-  padding: 1rem 0.5rem;
-  align-self: center;
+  display: flex;
+  border-radius: 5%;
+  padding: 1rem 0.2rem;
+  align-items: center;
+
+  background-image: linear-gradient(to right, #039422, #ec842f);
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
+.heading h2 {
+  align-items: center;
+  margin-left: 33%;
+  justify-content: center;
 }
 .chatGPT-app {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  background: url("../src/assets/ai_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
